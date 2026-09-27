@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Montoro — Relojería y Joyería</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="wrap nav-row">
+    <a class="brand" href="#inicio">
+      <img src="assets/logo.png" alt="Montoro">
+      <span>Montoro</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="links" id="navLinks">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#horario">Horario y ubicación</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">Relojería y joyería</p>
+      <h1>Montoro</h1>
+      <p class="lead">Tu joyería de confianza en el barrio. Relojes y joyas cuidadosamente seleccionados, con atención cercana y personal.</p>
+      <div class="hero-cta">
+        <a class="btn btn-oro" href="#contacto">Contactar</a>
+        <a class="btn btn-linea" href="#horario">Ver horario</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="foto-marco">
+        <img src="assets/exterior.png" alt="Fachada de la joyería Montoro">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="nosotros" id="nosotros">
+  <div class="wrap nosotros-grid">
+    <div>
+      <p class="sello">Quiénes somos</p>
+      <h2>Una joyería de barrio, con oficio</h2>
+      <p>Somos Montoro, una relojería y joyería [de toda la vida / desde hace X años — añade aquí vuestra historia real]. Atendemos a cada cliente con calma, os ayudamos a elegir la pieza adecuada y cuidamos cada detalle, desde la venta hasta el mantenimiento.</p>
+      <div class="rasgos">
+        <div class="rasgo">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+          <div><h3>A qué nos dedicamos</h3><p>Venta de relojes y joyería [oro, plata, piedras — ajusta según vuestro surtido real], reparación y mantenimiento básico, ajuste de correas y tallas.</p></div>
+        </div>
+        <div class="rasgo">
+          <svg viewBox="0 0 24 24"><path d="M4 21v-7a8 8 0 1116 0v7"/><path d="M4 21h16"/></svg>
+          <div><h3>Atención personalizada</h3><p>Te asesoramos sin prisa para encontrar la pieza que buscas, tanto para regalar como para ti.</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="nosotros-foto">
+      <img src="assets/interior.png" alt="Interior de la joyería Montoro">
+    </div>
+  </div>
+</section>
+
+<div class="banda-foto">
+  <img src="assets/relojes.png" alt="Selección de relojes Montoro">
+  <span>Parte de nuestra selección</span>
+</div>
+
+<section class="info-doble" id="horario">
+  <div class="wrap" style="padding:0;">
+    <div class="info-grid">
+      <div class="info-col horario-col">
+        <h2>Horario</h2>
+        <ul class="horario-lista">
+          <li><span>Lunes – Viernes</span><span>10:00 – 14:00 · 17:00 – 20:30</span></li>
+          <li><span>Sábado</span><span>10:00 – 14:00</span></li>
+          <li><span>Domingo</span><span>Cerrado</span></li>
+        </ul>
+      </div>
+      <div class="info-col direccion">
+        <h2>Dónde estamos</h2>
+        <p><strong>C/ Gómez Ferrer, 32</strong>46900 Torrent, Valencia</p>
+        <a class="btn btn-oro" href="https://www.google.com/maps/search/?api=1&query=C%2FGomez+Ferrer+32+Torrent+Valencia" target="_blank" rel="noopener">Cómo llegar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contacto" id="contacto">
+  <div class="wrap">
+    <h2>Hablemos</h2>
+    <p class="sub">¿Tienes alguna pregunta o quieres reservar una pieza? Escríbenos o síguenos en Instagram.</p>
+    <div class="medios">
+      <a class="medio" href="mailto:jmrmontoro@hotmail.com">
+        <svg viewBox="0 0 24 24"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg>
+        <span><strong>Escribir un email</strong><span>jmrmontoro@hotmail.com</span></span>
+      </a>
+      <a class="medio" href="https://www.instagram.com/joyeriamontoro" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.6" fill="currentColor" stroke="none"/></svg>
+        <span><strong>Instagram</strong><span>@joyeriamontoro</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="Montoro">
+      <span>Montoro — Relojería y Joyería</span>
+    </div>
+    <span>C/ Gómez Ferrer, 32 · 46900 Torrent, Valencia</span>
+  </div>
+  <div class="footer-creador">
+    Web por <a href="https://manugabilondo.com" target="_blank" rel="noopener">Manuel Gabilondo</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
